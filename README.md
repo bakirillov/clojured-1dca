@@ -11,7 +11,7 @@ Read more about 1D CA at http://mathworld.wolfram.com/ElementaryCellularAutomato
 
 ## Usage
 
-    $ java -jar clojured-1dca.jar [args]
+    $ java -jar clojured-1dca [args]
 
 ## Options
 

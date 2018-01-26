@@ -60,14 +60,6 @@
     ))
   )
 
-(defn make-frame [x height]
-  (
-    cond 
-     (>= (count x) height) (take-last height x)
-     (< (count x) height) (concat (into [] (repeat (- height (count x)) (into [] (repeat (count (x 0)) 0)))) x)
-    )
-  )
-
 (defn make-line [line]
   (println (str/join (map (fn [x] (if (= x 0) "." "+")) line)))
   )
