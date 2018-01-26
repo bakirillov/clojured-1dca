@@ -23,6 +23,11 @@ Read more about 1D CA at http://mathworld.wolfram.com/ElementaryCellularAutomato
 
 ## Examples
 
+### Rule 110 - Turing-complete one
+![Alt Text](https://github.com/bakirillov/clojured-1dca/rule110.png)
+
+### Rule 30 - Chaotic one
+![Alt Text](https://github.com/bakirillov/clojured-1dca/rule30.png)
 
 ## License
 
