@@ -1,36 +1,31 @@
 # clojured-1dca
 
-FIXME: description
+Simulation of one-dimensional cellular automata in Clojure. 
+Read more about 1D CA at http://mathworld.wolfram.com/ElementaryCellularAutomaton.html
 
 ## Installation
 
-Download from http://example.com/FIXME.
+    $ git clone https://github.com/bakirillov/clojured-1dca.git
+    $ cd clojured-1dca
+    $ lein uberjar
 
 ## Usage
 
-FIXME: explanation
-
-    $ java -jar clojured-1dca-0.1.0-standalone.jar [args]
+    $ java -jar clojured-1dca.jar [args]
 
 ## Options
 
-FIXME: listing of options this app accepts.
+    -n --number-of-1dca - Number of possible 1D CA;   
+    -e --epochs - Number of epochs;   
+    -s --seed - Seed value;
+    -w --width - Width of a stage;
+    
 
 ## Examples
 
-...
-
-### Bugs
-
-...
-
-### Any Other Sections
-### That You Think
-### Might be Useful
 
 ## License
 
-Copyright © 2018 FIXME
+Copyright © 2018 Bogdan Kirillov
 
-Distributed under the Eclipse Public License either version 1.0 or (at
-your option) any later version.
+Distributed under the Eclipse Public License 1.0.
